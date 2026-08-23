@@ -125,7 +125,7 @@ const connectDB = async () => {
         const candidates = [
             process.env.MONGODB_URI,
             process.env.MONGO_URL,
-            "mongodb://localhost:27017/EDUHUB",
+            "mongodb://malali3b_db_user:0cFw0nxHKBirqm6f@ac-e2gl6oo-shard-00-00.q3aiued.mongodb.net:27017,ac-e2gl6oo-shard-00-01.q3aiued.mongodb.net:27017,ac-e2gl6oo-shard-00-02.q3aiued.mongodb.net:27017/?ssl=true&replicaSet=atlas-v9ilz9-shard-0&authSource=admin&appName=EDUHUB",
         ].filter(Boolean);
 
         if (candidates.length === 0) {
