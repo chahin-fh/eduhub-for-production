@@ -15,7 +15,7 @@ export function formatDate(input: string | number | Date): string {
 }
 
 export function absoluteUrl(path: string) {
-  return `${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}${path}`;
+  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`;
 }
 
 export function truncate(str: string, length: number) {

@@ -1,7 +1,7 @@
 // Templates d'emails professionnels pour EDUHUB
 // Layout responsive (table + styles inline) compatible avec la plupart des clients de messagerie.
 
-const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:3000";
+const FRONTEND_URL = process.env.FRONTEND_URL;
 const CONTACT_EMAIL = process.env.EMAIL_USER || "malekfhima1@gmail.com";
 
 // Échappe le contenu utilisateur pour éviter toute injection HTML dans les emails

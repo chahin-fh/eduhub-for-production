@@ -20,8 +20,9 @@ const authLimiter = rateLimit({
 });
 
 // CORS configuration
+const frontendOrigin = process.env.FRONTEND_URL?.trim().replace(/\/+$/, '');
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+  origin: frontendOrigin,
   credentials: true,
   optionsSuccessStatus: 200
 };

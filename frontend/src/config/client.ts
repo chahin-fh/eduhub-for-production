@@ -2,7 +2,7 @@
 const clientConfig = {
   app: {
     name: 'EduHub',
-    url: process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
+    url: process.env.NEXT_PUBLIC_APP_URL ,
   },
   storage: {
     cloudName: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,
